@@ -30,6 +30,6 @@ spec:
             memory: {{ .Values.worker.resources.requests.memory }}
             cpu: {{ .Values.worker.resources.requests.cpu }}
           limits:
-            memory: {{ .Values.worker.resources.limits.cpu }}
-            cpu: {{ .Values.worker.resources.limits.memory }}
+            memory: {{ .Values.worker.resources.limits.memory }}
+            cpu: {{ .Values.worker.resources.limits.cpu }}
 
