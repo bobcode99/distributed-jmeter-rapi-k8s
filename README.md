@@ -11,7 +11,7 @@ $DIS_JMETER_PROJ_PATH/rapi-test-suites/wordpress-a-b-testing-8020-suite-recordb2
 jmeter-rapi--wordp-a80b20useb20--t5w10-lim-100-1 \
 helm--wau--t5w10-lim-100-1 \
 $DIS_JMETER_PROJ_PATH/charts/jmeter-rapi-helm-chart \
-$DIS_JMETER_PROJ_PATH/values/value.yaml \
+$DIS_JMETER_PROJ_PATH/charts/values/value.yaml \
 10
 
 ```
