@@ -1,0 +1,708 @@
+{
+  "time": 1683620515227,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "wordpress-a-b-testing-8020-suite-recordb20",
+      "description": "for local test website",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "testcase1-8020",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 390.26,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "http://192.168.3.105:32630/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='wp-block-themeisle-blocks-advanced-column-101a17aa']/h1[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//h1[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=h1.wp-block-heading.has-text-align-left.ticss-323b0dc0"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "The minimal blog"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@id='menu-item-111']/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'About')]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#menu-item-111 > div.wrap > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=About"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "28,12"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 7,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollWheel",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='wp-block-themeisle-blocks-advanced-column-44e0e60e']/figure[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/figure[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[contains(@src,'http://192.168.3.105:32630/wp-content/uploads/2020/10/neve-minimal-blogger-05-1.jpg')]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img.wp-image-104"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"StartPoint\":{\"X\":453,\"Y\":270},\"Delta\":[{\"TD\":0,\"X\":0,\"Y\":120,\"Z\":0,\"M\":0}]}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='wp-block-themeisle-blocks-advanced-column-c5a7861d']/h2[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//h2[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=h2.wp-block-heading:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "I love simplicity"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@id='menu-item-113']/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[3]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'News')]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#menu-item-113 > div.wrap > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=News"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "36,8"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 1,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//article[@id='post-1']/div[1]/div[1]/h2[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//article[2]/div[1]/div[1]/h2[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'Hello world!')]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#post-1 > div.article-content-col > div.content > h2.blog-entry-title.entry-title:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=Hello world!"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "116,39"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 4,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Hello world! – User's Blog!"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@id='menu-item-113']/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[3]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'News')]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#menu-item-113 > div.wrap > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=News"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "9,16"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 6,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//article[@id='post-130']/div[1]/div[1]/div[1]/a[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[contains(@src,'http://192.168.3.105:32630/wp-content/uploads/2020/10/neve-minimal-blogger-06-1.jpg')]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img.skip-lazy.wp-post-image"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 1,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "May be wrong"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:dataRelative",
+                    "value": "//div[@data-test='9YvKkQb93H']/div[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//article[@id='post-130']/div[1]/div[1]/div[1]/p[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/p[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=p:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "This is B test. You have 20% chance to visit this page."
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollWheel",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:dataRelative",
+                    "value": "//div[@data-test='9YvKkQb93H']/div[1]/p[7]"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//article[@id='post-130']/div[1]/div[1]/div[1]/p[7]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//p[7]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=p:nth-child(9)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"StartPoint\":{\"X\":387,\"Y\":503},\"Delta\":[{\"TD\":0,\"X\":0,\"Y\":120,\"Z\":0,\"M\":0}]}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:dataRelative",
+                    "value": "//div[@data-test='9YvKkQb93H']/div[1]/p[9]"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//article[@id='post-130']/div[1]/div[1]/div[1]/p[9]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//p[9]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=p:nth-child(11)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Maecenas facilisis mauris ac vulputate bibendum. Pellentesque at sapien quis augue rhoncus faucibus. Proin rhoncus dapibus sem, ac tristique lectus rutrum nec. Fusce non leo fringilla, mattis sem vitae, finibus arcu. Ut sed purus lorem. In enim lorem, pharetra sit amet dui a, mattis accumsan ipsum. Vestibulum egestas ligula ut eleifend consectetur. Donec vel metus velit. Sed neque risus, rutrum in cursus ut, ultricies a risus. Proin ac risus in massa auctor consequat id non mauris. In commodo interdum arcu, egestas convallis quam sagittis eu. Morbi congue tincidunt tincidunt. Proin tristique, mauris at viverra efficitur, mi enim faucibus erat, sed condimentum urna risus a lorem."
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@id='menu-item-110']/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[4]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'Contact')]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#menu-item-110 > div.wrap > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=Contact"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "25,24"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 2,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='wp-block-themeisle-blocks-advanced-column-08c6144b']/h1[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//h1[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=h1.ticss-323b0dc0.wp-block-heading"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Contact me"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
