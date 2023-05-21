@@ -114,7 +114,6 @@ for i in "${!ARRAY_STRING_WORKER_NAME[@]}"
 do
     echo "doing copy worker log ${ARRAY_STRING_WORKER_NAME[i]}"
     kubectl --kubeconfig ${KUBE_CONFIG_PATH} cp ${ARRAY_STRING_WORKER_NAME[i]}:worker_log.log ./${WORKERS_RESULT_FOLDER}/${ARRAY_STRING_WORKER_NAME[i]}.log --namespace=${NAMESPACE_NAME}
-    kubectl --kubeconfig ${KUBE_CONFIG_PATH} cp ${ARRAY_STRING_WORKER_NAME[i]}:/tmp/requests.json ./${WORKERS_RESULT_FOLDER}/${ARRAY_STRING_WORKER_NAME[i]}-requests.json --namespace=${NAMESPACE_NAME}
 done
 echo "done copy worker logs!"
 # ================================================================================================================================
