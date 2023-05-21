@@ -1,0 +1,25 @@
+FROM ybdock1/jmeter-rapi-base-chrome113-with-jmx-export:1.0.0
+
+EXPOSE 1099 50000 9097
+
+# ENTRYPOINT $JMETER_HOME/bin/jmeter-server \
+# -Dserver.rmi.localport=50000 \
+# -Dserver_port=1099 \
+# -Jserver.rmi.ssl.disable=true
+
+ENV SE_NODE_MAX_SESSIONS 8
+ENV RAPI_RUNNER_URL https://github.com/RapiTest/rapi-runner/releases/download/v4.0.0/rapi-runner-linux
+
+RUN mkdir -p /tmp/dependencies && \
+	mkdir -p /opt && \
+	curl -L -o /opt/bin/rapi-runner ${RAPI_RUNNER_URL} && \
+	rm -rf /tmp/dependencies
+
+COPY entrypoint-worker.sh /
+# COPY selenium-config.toml /opt/selenium/
+
+RUN ["chmod", "+x", "/opt/bin/start-web-vitals-server.sh"]
+RUN ["chmod", "+x", "/entrypoint-worker.sh"]
+RUN ["chmod", "+x", "/opt/bin/rapi-runner"]
+
+ENTRYPOINT ["/entrypoint-worker.sh"]

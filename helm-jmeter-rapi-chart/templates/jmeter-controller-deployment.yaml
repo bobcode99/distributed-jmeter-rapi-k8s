@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jmeter-controller
+  labels:
+    jmeter_mode: controller
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      jmeter_mode: controller
+  template:
+    metadata:
+      labels:
+        jmeter_mode: controller
+    spec:
+      nodeSelector:
+        kubernetes.io/role: worker
+      containers:
+      - name: jmcontroller
+        image: ybdock1/jmeter-rapi-controller-chrome113-with-jmx-export:1.0.0
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 60000
+        - containerPort: 9097
+        resources:
+          requests:
+            memory: "700Mi"
+            cpu: "500m"
+          limits:
+            memory: "700Mi"
+            cpu: "500m"

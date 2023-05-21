@@ -1,0 +1,9 @@
+FROM ybdock1/jmeter-rapi-base-chrome113-with-jmx-export:1.0.0
+
+EXPOSE 60000 9097
+
+COPY entrypoint-controller.sh /
+
+RUN ["chmod", "+x", "/entrypoint-controller.sh"]
+
+ENTRYPOINT ["/entrypoint-controller.sh"]

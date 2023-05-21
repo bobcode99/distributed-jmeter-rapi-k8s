@@ -1,0 +1,30 @@
+tmp/
+
+client/
+server/
+compose/
+rmi_keystore.jks
+# Mac
+_MACOSX/
+.DS_Store
+
+# IntelliJ
+.idea
+
+# Vscode
+.vscode/
+.vim/
+
+*-log/
+
+node_modules/
+
+yarn.lock
+package-lock.json
+
+# Compiled class file
+*.class
+
+# jmeter report, log
+controller-things-*/
+worker-log-*/

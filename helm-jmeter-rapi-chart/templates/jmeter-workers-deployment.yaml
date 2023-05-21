@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jmeter-workers
+  labels:
+    jmeter_mode: worker
+spec:
+  replicas: {{ .Values.worker_replica }}
+  selector:
+    matchLabels:
+      jmeter_mode: worker
+  template:
+    metadata:
+      labels:
+        jmeter_mode: worker
+    spec:
+      nodeSelector:
+        kubernetes.io/role: worker
+      containers:
+      - name: jmworker
+        image: ybdock1/jmeter-rapi-worker-chrome113-with-jmx-export:1.0.0
+        imagePullPolicy: IfNotPresent
+        args: [ "POD_IP", "/mnt/jmeter" ]
+        ports:
+        - containerPort: 1099
+        - containerPort: 50000
+        - containerPort: 9097
+        resources:
+          requests:
+            memory: "12288Mi"
+            cpu: "8"
+          limits:
+            memory: "12288Mi"
+            cpu: "8"
+
