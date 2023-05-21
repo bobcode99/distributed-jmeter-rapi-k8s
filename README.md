@@ -15,3 +15,8 @@ $DIS_JMETER_PROJ_PATH/charts/values/value.yaml \
 10
 
 ```
+
+### Debug use
+```
+helm install --dry-run --debug --namespace test-ns-jmeter-rapi100 helm-chart-jr-test $DIS_JMETER_PROJ_PATH/charts/jmeter-rapi-helm-chart --set worker_replica=5 --values $DIS_JMETER_PROJ_PATH/charts/values/value.yaml
+```
