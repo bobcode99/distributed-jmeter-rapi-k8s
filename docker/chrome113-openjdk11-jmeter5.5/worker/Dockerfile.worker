@@ -16,9 +16,7 @@ RUN mkdir -p /tmp/dependencies && \
 	rm -rf /tmp/dependencies
 
 COPY entrypoint-worker.sh /
-# COPY selenium-config.toml /opt/selenium/
 
-RUN ["chmod", "+x", "/opt/bin/start-web-vitals-server.sh"]
 RUN ["chmod", "+x", "/entrypoint-worker.sh"]
 RUN ["chmod", "+x", "/opt/bin/rapi-runner"]
 
