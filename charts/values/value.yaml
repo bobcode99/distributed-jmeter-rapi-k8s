@@ -1,16 +1,16 @@
 controller:
   resources:
     requests:
-      cpu: "500m"
-      memory: "700Mi"
+      cpu: 500m
+      memory: 700Mi
     limits:
-      cpu: 500m"
-      memory: 700Mi"
+      cpu: 500m
+      memory: 700Mi
 worker:
   resources:
     requests:
-      cpu: "5"
-      memory: "12288Mi"
+      cpu: 5
+      memory: 12288Mi
     limits:
-      cpu: "5"
-      memory: "12288Mi"
+      cpu: 5
+      memory: 12288Mi
