@@ -1,0 +1,16 @@
+controller:
+  resources:
+    requests:
+      cpu: "700Mi"
+      memory: "500m"
+    limits:
+      cpu: "700Mi"
+      memory: "500m"
+worker:
+  resources:
+    requests:
+      cpu: "5"
+      memory: "12288Mi"
+    limits:
+      cpu: "5"
+      memory: "12288Mi"

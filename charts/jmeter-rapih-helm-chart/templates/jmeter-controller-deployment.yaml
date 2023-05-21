@@ -25,8 +25,8 @@ spec:
         - containerPort: 9097
         resources:
           requests:
-            memory: "700Mi"
-            cpu: "500m"
+            memory: {{ .Values.controller.resources.requests.memory }}
+            cpu: {{ .Values.controller.resources.requests.cpu }}
           limits:
-            memory: "700Mi"
-            cpu: "500m"
+            memory: {{ .Values.controller.resources.limits.memory }}
+            cpu: {{ .Values.controller.resources.limits.cpu }}

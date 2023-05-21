@@ -11,7 +11,8 @@ SIDEEX_TESTCASE="$2"
 NAMESPACE_NAME="$3"
 HELM_NAME="$4"
 HELM_CHART_PATH="$5"
-NUM_TOTAL_WORKER_CONTROLLER="$6"
+HELM_VALUES_PATH="$6"
+NUM_TOTAL_WORKER_CONTROLLER="$7"
 KUBE_CONFIG_PATH="/home/selab/.kube/config"
 
 if [ "$jmx" == "" -o "$SIDEEX_TESTCASE" == "" -o "$NAMESPACE_NAME" == "" -o "$HELM_NAME" == "" -o "$HELM_CHART_PATH" == "" -o "$NUM_TOTAL_WORKER_CONTROLLER" == "" ];then
@@ -39,7 +40,7 @@ echo "KUBE_CONFIG_PATH: ${KUBE_CONFIG_PATH}"
 
 # ====================================================================================================================================================================
 kubectl --kubeconfig ${KUBE_CONFIG_PATH} create namespace ${NAMESPACE_NAME}
-helm --kubeconfig ${KUBE_CONFIG_PATH} install --namespace ${NAMESPACE_NAME} ${HELM_NAME} ${HELM_CHART_PATH} --set worker_replica=${NUM_TOTAL_WORKER_CONTROLLER}
+helm --kubeconfig ${KUBE_CONFIG_PATH} install --namespace ${NAMESPACE_NAME} ${HELM_NAME} ${HELM_CHART_PATH} --set worker_replica=${NUM_TOTAL_WORKER_CONTROLLER} --values ${HELM_VALUES_PATH}
 
 # check pods create done or not
 NUM_OF_PODS_RUNNING=0
