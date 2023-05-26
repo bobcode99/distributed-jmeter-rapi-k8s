@@ -7,7 +7,7 @@ export TIME_STAMP_FOR_JMETERK8S=$(date +%Y%m%d_%H%M%S)
 working_dir="`pwd`"
 
 jmx="$1"
-SIDEEX_TESTCASE="$2"
+RAPI_TESTCASE="$2"
 NAMESPACE_NAME="$3"
 HELM_NAME="$4"
 HELM_CHART_PATH="$5"
@@ -15,7 +15,7 @@ HELM_VALUES_PATH="$6"
 NUM_TOTAL_WORKER_CONTROLLER="$7"
 KUBE_CONFIG_PATH="/home/selab/.kube/config"
 
-if [ "$jmx" == "" -o "$SIDEEX_TESTCASE" == "" -o "$NAMESPACE_NAME" == "" -o "$HELM_NAME" == "" -o "$HELM_CHART_PATH" == "" -o "$NUM_TOTAL_WORKER_CONTROLLER" == "" ];then
+if [ "$jmx" == "" -o "$RAPI_TESTCASE" == "" -o "$NAMESPACE_NAME" == "" -o "$HELM_NAME" == "" -o "$HELM_CHART_PATH" == "" -o "$NUM_TOTAL_WORKER_CONTROLLER" == "" ];then
    echo "pleas input again"
    exit
 fi
@@ -31,7 +31,7 @@ echo "working_dir: ${working_dir}"
 echo "test path + test name: ${jmx}"
 test_plan_name=${jmx##*/}
 echo "test_plan_name: ${test_plan_name}"
-echo "Sideex testcase path: ${SIDEEX_TESTCASE}"
+echo "Rapi testcase path: ${RAPI_TESTCASE}"
 echo "NAMESPACE_NAME : ${NAMESPACE_NAME}"
 echo "HELM_NAME: ${HELM_NAME}"
 echo "HELM_CHART_PATH: ${HELM_CHART_PATH}"
@@ -71,11 +71,11 @@ echo "start copy ${test_plan_name} to ${CONTROLLER_NAME}"
 kubectl --kubeconfig ${KUBE_CONFIG_PATH} cp ${jmx} ${CONTROLLER_NAME}:/mnt/${test_plan_name} --namespace=${NAMESPACE_NAME}
 echo "done copy jmeter testcase to controller node"
 
-echo "start copy sideex-test-case"
+echo "start copy rapi-test-case"
 for i in "${!ARRAY_STRING_WORKER_NAME[@]}"
 do
-    echo "doing copy sideex-test-case to ${ARRAY_STRING_WORKER_NAME[i]}"
-    kubectl --kubeconfig ${KUBE_CONFIG_PATH} cp ${SIDEEX_TESTCASE} ${ARRAY_STRING_WORKER_NAME[i]}:/mnt/testSuite.json --namespace=${NAMESPACE_NAME}
+    echo "doing copy rapi-test-case to ${ARRAY_STRING_WORKER_NAME[i]}"
+    kubectl --kubeconfig ${KUBE_CONFIG_PATH} cp ${RAPI_TESTCASE} ${ARRAY_STRING_WORKER_NAME[i]}:/mnt/testSuite.json --namespace=${NAMESPACE_NAME}
 done
 
 echo "start execute test";
