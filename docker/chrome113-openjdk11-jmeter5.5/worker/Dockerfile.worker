@@ -10,6 +10,7 @@ EXPOSE 1099 50000 9097
 ENV SE_NODE_MAX_SESSIONS 8
 ENV SE_NODE_OVERRIDE_MAX_SESSIONS true
 ENV RAPI_RUNNER_URL https://github.com/RapiTest/rapi-runner/releases/download/v4.0.0/rapi-runner-linux
+ENV SE_START_VNC false
 
 RUN mkdir -p /tmp/dependencies && \
 	mkdir -p /opt && \
