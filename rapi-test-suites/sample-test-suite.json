@@ -1,0 +1,1564 @@
+{
+  "time": 1686205968074,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "sample-test-suite",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "sample-test-case1",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 15.27,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://bobcode99.github.io/static-website/sampleWebsite.html"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//p[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=p:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et eros laoreet urna pretium facilisis at lacinia tellus. Nam lobortis vitae nisl vitae volutpat. Suspendisse eleifend ipsum vitae justo lacinia, condimentum mattis erat condimentum. Morbi sed tellus metus. Phasellus ornare, enim quis pulvinar tempor, risus turpis scelerisque felis, sed ullamcorper leo urna at nisi. Pellentesque eget turpis congue, ornare purus nec, euismod enim. In malesuada elementum sagittis. Sed a diam aliquet eros egestas elementum. Quisque vel dapibus erat. Morbi posuere nisl sit amet massa pharetra scelerisque. Vestibulum vel neque nec augue sodales ultricies. Pellentesque vitae erat erat. Nunc quis lectus felis. Praesent in risus ultricies felis semper sagittis at vel neque. Quisque vehicula dignissim laoreet. Proin quis accumsan mauris, id ornare nibh. Ut lacinia convallis ipsum ac consequat. Mauris in sollicitudin arcu, lacinia tristique orci. Ut efficitur imperdiet lectus, a auctor sapien pulvinar maximus. Nunc posuere tristique tristique. Nunc blandit mauris nisi, quis aliquam dui rhoncus vitae. Integer aliquam fringilla mauris, vel viverra diam ornare quis. Sed aliquet eleifend nisl, non posuere tortor maximus eu. Nulla dapibus ornare dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam et feugiat urna, mollis euismod velit. In tincidunt tortor eu nunc porttitor, viverra rutrum nisl vulputate. Ut est nisl, pellentesque vitae dui sit amet, venenatis dictum nibh. Aliquam volutpat mauris quam. Fusce vel erat ultrices, consectetur massa id, sagittis nisi. Morbi rhoncus rhoncus lectus a luctus. Praesent ac nisl dui. Mauris sagittis consequat placerat. Proin sollicitudin velit libero, at congue dolor feugiat at. Integer ut imperdiet urna. Curabitur ut nisi sagittis felis vehicula consectetur sed condimentum arcu. Proin vitae arcu accumsan, imperdiet mi ut, egestas libero. Nam non risus luctus, fringilla justo in, lobortis nisi. Duis feugiat, ante id facilisis porta, sem sem cursus ipsum, elementum fermentum magna magna vel sem. Nam ut lobortis mauris. Vivamus mi neque, tincidunt a bibendum in, gravida quis mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis in metus nec gravida. Pellentesque vitae augue erat. Phasellus sed condimentum justo. Praesent et nulla turpis. Cras vestibulum pharetra arcu eget blandit. Mauris vitae augue a neque ultrices pharetra eget at nisl. Etiam metus neque, dapibus a nibh auctor, ullamcorper ultrices nisi. Maecenas nec est non justo vulputate dignissim in vitae est. Pellentesque elit est, tempor quis efficitur in, porta eget turpis. Vivamus a felis et lacus bibendum volutpat vitae a turpis. Vestibulum eget nibh magna. Vivamus at vehicula mi. Phasellus aliquam rutrum libero. Quisque vitae commodo quam. Fusce posuere convallis lectus, eu venenatis purus tempor quis."
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=showDialog"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//p[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@id='showDialog']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#showDialog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "102,7"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "select",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dialog[@id='favDialog']/form[1]/p[1]/label[1]/select[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//select[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=select"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "label=Choose…"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "select",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dialog[@id='favDialog']/form[1]/p[1]/label[1]/select[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//select[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=select"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "label=Spider monkey"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=confirmBtn"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dialog[@id='favDialog']/form[1]/div[1]/button[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//button[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@id='confirmBtn']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#confirmBtn"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "32,7"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 3
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//output[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=output"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "ReturnValue: Spider monkey."
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=color"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=color"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='color']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#color"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "29,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "type",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=color"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=color"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='color']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#color"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "#f50000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div:nth-child(7)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "460,125"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "type",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=date"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=date"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='date']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#date"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2023-08-09"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "type",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=datetime-local"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=datetime-local"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='datetime-local']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#datetime-local"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2023-04-06T18:36"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div:nth-child(7)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "619,185"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "type",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=month"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=month"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[4]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='month']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#month"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2023-08"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "type",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=range"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=range"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[5]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='range']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#range"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "75"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "type",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=time"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=time"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[6]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='time']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#time"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "17:30"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div:nth-child(7)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "276,274"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "type",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=week"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=week"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[7]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='week']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#week"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2023-W25"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/label[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=label:nth-child(10)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "55,14"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/label[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=body > label:nth-child(13)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "51,36"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=name"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=name"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/input[4]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='name']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#name"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "111,9"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=name"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=name"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/input[4]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='name']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#name"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "good"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=email"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=email"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/input[5]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='email']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#email"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "gg@cc.com"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=password"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/input[6]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='password']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#password"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "foisdfjiweoifj999qwei09"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/button[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@type='button']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button[type=\"button\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "35,13"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/input[7]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@value='Submit']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input[type=\"submit\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,17"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "doubleClickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=Button"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/button[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@id='Button']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#Button"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "20,9"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/label[7]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=label:nth-child(36)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "84,5"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[8]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=label:nth-child(39)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "79,25"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[9]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=label:nth-child(42)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "84,48"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "rightClickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=checkbox3"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=checkbox3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[10]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='checkbox3']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#checkbox3"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "8,6"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=password"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/input[6]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='password']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#password"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "97,4"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "assertIsPassword",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=password"
+                  },
+                  {
+                    "type": "name",
+                    "value": "name=password"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/input[6]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='password']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#password"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "doubleClickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//button[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@onclick='handleClick()']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button:nth-child(46)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "51,7"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//button[3]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//button[@onclick='handleClick()']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=button:nth-child(46)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "51,8"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=count"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//span[@id='count']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#count"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "3"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
