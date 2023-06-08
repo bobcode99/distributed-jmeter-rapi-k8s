@@ -95,7 +95,7 @@ echo "start copy logs, report, ..."
 # ================================================================================================================================
 # ./copy-controller-logs-files.sh
 echo "start copy controller files!"
-CONTROLLER_RESULT_FOLDER="controller-things-${TIME_STAMP_FOR_JMETERK8S}"
+CONTROLLER_RESULT_FOLDER="controller-things-${NAMESPACE_NAME}-${TIME_STAMP_FOR_JMETERK8S}"
 
 kubectl --kubeconfig ${KUBE_CONFIG_PATH} cp ${CONTROLLER_NAME}:result.csv ./${CONTROLLER_RESULT_FOLDER}/result.csv --namespace=${NAMESPACE_NAME}
 kubectl --kubeconfig ${KUBE_CONFIG_PATH} cp ${CONTROLLER_NAME}:jmeter-log.log ./${CONTROLLER_RESULT_FOLDER}/jmeter-log.log --namespace=${NAMESPACE_NAME}
@@ -108,7 +108,7 @@ echo "done copy controller files!"
 # ================================================================================================================================
 # ./copy-worker-logs-files.sh
 echo "start copy worker logs!"
-WORKERS_RESULT_FOLDER="worker-log-${TIME_STAMP_FOR_JMETERK8S}"
+WORKERS_RESULT_FOLDER="worker-log-${NAMESPACE_NAME}-${TIME_STAMP_FOR_JMETERK8S}"
 
 for i in "${!ARRAY_STRING_WORKER_NAME[@]}"
 do
