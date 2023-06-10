@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.5">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="rapiTestPlanUseForK8s-manythread-with-synctimer" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">5</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">3600</stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <ncku.selab.rapi4jmeter.config.RapiRunnerConfig guiclass="ncku.selab.rapi4jmeter.config.RapiRunnerConfigGui" testclass="ncku.selab.rapi4jmeter.config.RapiRunnerConfig" testname="@rapi - Rapi Runner Config" enabled="true">
+          <stringProp name="RUNNER_EXE_PATH">/opt/bin/rapi-runner</stringProp>
+          <stringProp name="SELENIUM_URL">http://127.0.0.1:4444</stringProp>
+        </ncku.selab.rapi4jmeter.config.RapiRunnerConfig>
+        <hashTree/>
+        <ncku.selab.rapi4jmeter.config.ChromeConfig guiclass="ncku.selab.rapi4jmeter.config.ChromeConfigGui" testclass="ncku.selab.rapi4jmeter.config.ChromeConfig" testname="@rapi - Chrome Config" enabled="true">
+          <stringProp name="BROWSER_ADDITIONAL_ARGS">headless, disable-gpu, no-sandbox, disable-dev-shm-usage, disable-web-security, disable-site-isolation-trials</stringProp>
+        </ncku.selab.rapi4jmeter.config.ChromeConfig>
+        <hashTree/>
+        <ncku.selab.rapi4jmeter.sampler.RapiSampler guiclass="ncku.selab.rapi4jmeter.sampler.RapiSamplerGui" testclass="ncku.selab.rapi4jmeter.sampler.RapiSampler" testname="@rapi-Rapi-Sampler-thread${__threadNum}-${__machineName}" enabled="true">
+          <stringProp name="TC_FILE_PATH">/mnt/testSuite.json</stringProp>
+          <stringProp name="BROWSER_SELECT">Chrome</stringProp>
+          <boolProp name="ENABLE_LOG">false</boolProp>
+        </ncku.selab.rapi4jmeter.sampler.RapiSampler>
+        <hashTree/>
+        <SyncTimer guiclass="TestBeanGUI" testclass="SyncTimer" testname="Synchronizing Timer" enabled="true">
+          <intProp name="groupSize">5</intProp>
+          <longProp name="timeoutInMs">0</longProp>
+        </SyncTimer>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
