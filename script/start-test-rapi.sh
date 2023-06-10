@@ -13,7 +13,7 @@ HELM_NAME="$4"
 HELM_CHART_PATH="$5"
 HELM_VALUES_PATH="$6"
 NUM_TOTAL_WORKER_CONTROLLER="$7"
-KUBE_CONFIG_PATH="/home/selab/.kube/config"
+KUBE_CONFIG_PATH="/home/user/.kube/config"
 
 if [ "$jmx" == "" -o "$RAPI_TESTCASE" == "" -o "$NAMESPACE_NAME" == "" -o "$HELM_NAME" == "" -o "$HELM_CHART_PATH" == "" -o "$NUM_TOTAL_WORKER_CONTROLLER" == "" ];then
    echo "pleas input again"
