@@ -1,7 +1,7 @@
 # distributed-jmeter-rapi-k8s
 
 
-<img width="1694" alt="distributed-jmeter-rapi" src="https://github.com/bobcode99/distributed-jmeter-rapi-k8s/assets/39816893/f9181acf-ad13-4f49-9624-32547abc1b2a">
+<img width="1694" alt="kubernetes-infra" src="https://github.com/bobcode99/distributed-jmeter-rapi-k8s/assets/39816893/6ac3330f-3c7d-4984-ad0f-6946fed891a4">
 
 ## Introduction
 
