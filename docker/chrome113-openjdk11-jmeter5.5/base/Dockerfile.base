@@ -13,6 +13,7 @@ ENV JMETER_PLUGINS_MANAGER_VERSION 1.9
 # jmx_prometheus_javaagent-0.18.0.jar
 ENV JMX_PROM_JAVAAGENT_URL https://repo1.maven.org/maven2/io/prometheus/jmx/jmx_prometheus_javaagent/0.18.0/jmx_prometheus_javaagent-0.18.0.jar
 ENV TZ="Asia/Taipei"
+ENV START_XVFB false
 
 # using root to download things
 USER root
