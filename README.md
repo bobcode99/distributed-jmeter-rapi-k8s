@@ -1,5 +1,8 @@
 # distributed-jmeter-rapi-k8s
 
+
+<img width="1694" alt="kubernetes-infra" src="https://github.com/bobcode99/distributed-jmeter-rapi-k8s/assets/39816893/6ac3330f-3c7d-4984-ad0f-6946fed891a4">
+
 ## Introduction
 
 This sample repository provides everything you need to run Apache JMeter distributed testing with Rapi using Kubernetes. It includes all the necessary components and configurations to set up the environment.
