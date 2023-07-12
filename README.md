@@ -69,7 +69,7 @@ ns-jmeter-rapi--wordp-a80b20useb20--t5w10-lim-100-1 \
 helm--wau--t5w10-lim-100-1 \
 $DIS_JMETER_PROJ_PATH/charts/jmeter-rapi-helm-chart \
 $DIS_JMETER_PROJ_PATH/charts/values/value.yaml \
-10 \
+10
 ```
 
 Once you execute the script, it will wait for the successful deployment of the JMeter worker and controller pods. Afterward, it will start running the load test.
@@ -88,4 +88,15 @@ kubectl delete namespace ${NAMESPACE_NAME}
 
 ```
 helm install --dry-run --debug --namespace test-ns-jmeter-rapi100 helm-chart-jr-test $DIS_JMETER_PROJ_PATH/charts/jmeter-rapi-helm-chart --set worker_replica=5 --values $DIS_JMETER_PROJ_PATH/charts/values/value.yaml
+```
+
+```bash
+./script/start-test-rapi.sh \
+/path/to/jmeterTestPlan.jmx \
+/path/to/rapiTestSuite.json \
+namespacename-jmeter-rapi \
+helm-chart-name-jr \
+/path/to/jmeter-rapi-helm-chart \
+/path/to/helm-char-value/value.yaml \
+10
 ```

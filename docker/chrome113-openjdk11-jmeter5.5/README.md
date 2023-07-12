@@ -1,7 +1,7 @@
 ```
 docker build -t ybdock1/jmeter-rapi-base-chrome113-with-jmx-export:1.0.0 -f ./Dockerfile.base .
 docker build -t ybdock1/jmeter-rapi-controller-chrome113-with-jmx-export:1.0.0 -f ./Dockerfile.controller .
-docker build -t ybdock1/jmeter-rapi-worker-chrome113-with-jmx-export:1.0.0 -f ./Dockerfile.worker .'
+docker build -t ybdock1/jmeter-rapi-worker-chrome113-with-jmx-export:1.0.0 -f ./Dockerfile.worker .
 ```
 
 jmeter-controller 60000
